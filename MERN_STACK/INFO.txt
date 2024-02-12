@@ -1,0 +1,33 @@
+index.js = Archivo de Express exactamente de note JS, el cual nos ayudará a inicializar nuestro servidor.
+
+***-----------------------------------------------------------***
+
+CARPETA PARA ALMACENAR RUTAS PARA QUE EL SERVIDOR INGRESE A LA BASE DE DATOS (((ROUTES))).
+task.routes.js = Será definir las operaciones mediante las URL, para poder agregar tareas, eliminar, modificar entre otras.
+
+***-----------------------------------------------------------***
+DEFINIR UNA CARPETA PERMITIR LOS MODELOS DE LA BASE DE DATOS, QUE DATO VOY A PODER ALMACENAR (((MODELS))).
+
+task.js
+
+***-----------------------------------------------------------***
+database.js = Archivo que permite conectar la base de datos
+
+***-----------------------------------------------------------***
+CARPETA QUE CONTENGA LOS ARCHIVOS DEL FRONTEND ((PUBLIC))
+La encargada de enviar cualquier archivo al front end, imagenes, url, entre otras
+
+***-----------------------------------------------------------***
+CARPETA DENTRO DE SRC ((APP))
+Donde irá el código de REACT, tanto de la biblioteca como de la interfaz, que luego se trasnformará y se pasará a PUBLIC, para convertir el código.
+
+***-----------------------------------------------------------***
+
+NODEMON = Es tan solo un módulo que nos ayudará que reiniciará el servidor cada vez que se haga un cambio.
+
+MORGAN = Es un módulo que permite registra o ver por consola las peticiones que están llegando desde el navegador 
+
+
+***-----------------------------------------------------------***
+
+index.html = Contener el código de la app, solo en la manera en la que vamos a montar REACT 

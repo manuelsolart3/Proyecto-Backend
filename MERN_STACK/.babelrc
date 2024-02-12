@@ -1,0 +1,4 @@
+//PARA DECIRLE A BABEL QUE SINTAXIS DEBE TRADUCIR
+{
+    "presets": [ "@babel/preset-env", "@babel/preset-react" ]
+}
